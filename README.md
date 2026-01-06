@@ -1,242 +1,465 @@
 # Stoodio Agents
 
-Specialized AI agent teams for building products. Each team is structured like a professional agency with a lead orchestrator and domain specialists.
+**143 world-class specialists. 4 legendary teams. Zero mediocrity.**
+
+Stoodio Agents is a collection of AI-powered specialist teams that bring the expertise of industry legends to your product development workflow. Each team is structured like a professional agency with a lead orchestrator coordinating domain specialists.
+
+Think of it as having access to Dieter Rams, Gary Halbert, Linus Torvalds, and 140 other legends on speed dial.
 
 ---
 
-## Teams
+## The Teams
 
-| Team | Lead | Specialists | Focus |
-|------|------|-------------|-------|
-| **QA Team** | qa-lead | 17 agents | Testing, quality assurance |
-| **UX Team** | ux-lead | 48 agents | Design, research, user experience |
-| **Dev Team** | dev-lead | 42 agents | Architecture, implementation, deployment |
+| Team | Lead | Specialists | What They Do |
+|------|------|-------------|--------------|
+| **Growth Team** | growth-lead | 35 agents | Customer acquisition, copywriting, SEO, brand strategy |
+| **UX Team** | ux-lead | 48 agents | Research, design philosophy, visual language, UI design |
+| **Dev Team** | dev-lead | 42 agents | Architecture, coding principles, implementation, review |
+| **QA Team** | qa-lead | 18 agents | Testing, quality assurance, accessibility, security |
 
 ---
 
-## QA Team
+## Growth Team
 
-17 specialized QA agents organized as a professional testing agency.
+**35 legends who built the playbooks everyone else studies.**
 
-### Structure
+The Growth Team includes the people who coined "growth hacking," wrote the copywriting books, built billion-dollar brands, and created the frameworks you learned from. They've collectively generated tens of billions in revenue.
 
-```
-qa-lead (orchestrator)
-├── Platform Specialists
-│   ├── qa-web       (React, Vue, Angular, PWA, cross-browser)
-│   ├── qa-ios       (XCUITest, SwiftUI, Universal Links)
-│   ├── qa-tvos      (Focus Engine, Siri Remote, 10-foot UI)
-│   ├── qa-watchos   (Complications, WatchKit, HealthKit)
-│   ├── qa-android   (Espresso, Compose, App Links)
-│   └── qa-flutter   (Widget tests, golden testing)
-│
-├── Infrastructure Specialists
-│   ├── qa-api       (REST, GraphQL, gRPC, contract testing)
-│   └── qa-backend   (Kafka, RabbitMQ, databases, caching)
-│
-├── Quality Dimension Specialists
-│   ├── qa-security      (OWASP Top 10, auth, injection)
-│   ├── qa-performance   (k6, chaos engineering, Core Web Vitals)
-│   └── qa-accessibility (WCAG, screen readers, keyboard nav)
-│
-├── Methodology Specialists
-│   ├── qa-exploratory   (Session-based testing, heuristics)
-│   └── qa-automation    (Framework design, CI/CD, POM)
-│
-└── Domain Specialists
-    ├── qa-payments   (Stripe, Square, PCI compliance)
-    ├── qa-media      (HLS, DASH, DRM, adaptive bitrate)
-    └── qa-i18n       (Localization, RTL, Unicode)
-```
+### The Roster
+
+#### Growth Hackers & PLG (6)
+The architects of viral loops and product-led growth.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **sean-ellis** | Coined "growth hacking", Dropbox, LogMeIn | Activation, retention, experimentation |
+| **andrew-chen** | Uber growth, a16z, *The Cold Start Problem* | Network effects, marketplace cold starts |
+| **brian-balfour** | Reforge CEO, HubSpot VP Growth | Growth models, retention loops |
+| **hiten-shah** | Crazy Egg, KISSmetrics, FYI | SaaS growth, customer research |
+| **lenny-rachitsky** | #1 Substack, ex-Airbnb growth | Marketplace growth, PLG metrics |
+| **emily-kramer** | Asana/Carta marketing, MKT1 | B2B marketing, go-to-market |
+
+#### Copywriting Legends (7)
+The masters of persuasion who generated billions through words.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **david-ogilvy** | Father of Advertising, Ogilvy & Mather | Brand advertising, research-driven copy |
+| **gary-halbert** | The Boron Letters, $109M coat of arms letter | Direct response, sales letters |
+| **eugene-schwartz** | *Breakthrough Advertising* | Market awareness, headline mastery |
+| **claude-hopkins** | *Scientific Advertising* | Measurable results, testing |
+| **joe-sugarman** | BluBlocker, emotional triggers | Long-form copy, storytelling |
+| **dan-kennedy** | No B.S. Marketing, GKIC | Direct marketing, high-ticket offers |
+| **gary-bencivenga** | World's best living copywriter | A/B testing, control-beating copy |
+
+#### Content & SEO (4)
+The traffic architects who own page one.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **neil-patel** | Ubersuggest, NP Digital, Crazy Egg | SEO strategy, content marketing |
+| **brian-dean** | Backlinko, Skyscraper Technique | Link building, on-page SEO |
+| **rand-fishkin** | Moz founder, SparkToro | Audience research, SEO strategy |
+| **peep-laja** | CXL, Wynter | Conversion optimization, landing pages |
+
+#### Brand & Viral (5)
+The philosophers who understand why ideas spread.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **seth-godin** | *Purple Cow*, *Permission Marketing*, *Tribes* | Remarkable positioning, tribe building |
+| **kevin-kelly** | 1000 True Fans, Wired founding editor | Creator economy, superfan strategy |
+| **al-ries** | *Positioning*, *22 Immutable Laws* | Category creation, positioning |
+| **jonah-berger** | *Contagious*, STEPPS framework | Word-of-mouth, viral design |
+| **ryan-holiday** | *Growth Hacker Marketing*, *Trust Me I'm Lying* | Guerrilla PR, media strategy |
+
+#### Modern Growth Entrepreneurs (6)
+The builders who scaled audiences and businesses in the creator era.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **noah-kagan** | AppSumo founder, OkDork, $85M+ | Validation, launch strategies |
+| **shaan-puri** | My First Million, Milk Road | Idea generation, newsletters |
+| **sam-parr** | The Hustle (8-fig exit to HubSpot) | Newsletter growth, viral content |
+| **alex-hormozi** | *$100M Offers*, *$100M Leads*, Acquisition.com | Offers, lead generation |
+| **sahil-bloom** | 1.5M+ newsletter, creator economy | Twitter/X growth, personal brand |
+| **james-clear** | *Atomic Habits*, 2M+ newsletter | Behavior change, newsletter strategy |
+
+#### CMOs & Brand Executives (7)
+The executives who transformed global brands.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **bozoma-saint-john** | Apple/Uber/Netflix CMO, Hall of Fame | Bold brand moves, culture marketing |
+| **ann-lewnes** | Adobe CMO | Enterprise marketing, digital transformation |
+| **hiroki-asai** | Airbnb Global Marketing, ex-Apple | Brand campaigns, creative direction |
+| **leslie-berland** | Twitter/Peloton CMO | Brand repositioning, social-first |
+| **linda-boff** | GE CMO | B2B brand, content marketing |
+| **marc-mentry** | Capital One "What's in Your Wallet" | Brand campaigns, taglines |
+| **antonio-lucio** | HP/Facebook/PepsiCo CMO | Global brand, diversity marketing |
+
+### Growth Team Deployment Examples
+
+**"Launch my SaaS product"**
+→ growth-lead deploys: sean-ellis, noah-kagan, alex-hormozi, brian-balfour
+
+**"Write sales copy for this landing page"**
+→ growth-lead deploys: gary-halbert, eugene-schwartz, joe-sugarman, peep-laja
+
+**"Build SEO content strategy"**
+→ growth-lead deploys: brian-dean, neil-patel, rand-fishkin, sam-parr
+
+**"Position my brand in a crowded market"**
+→ growth-lead deploys: al-ries, seth-godin, david-ogilvy, kevin-kelly
 
 ---
 
 ## UX Team
 
-48 legendary designers and researchers working as a world-class design agency.
+**48 legendary designers and researchers. The world's greatest design agency.**
 
-### Structure
+From Don Norman (who invented the term "UX") to Dieter Rams (whose 10 principles shaped Apple's entire aesthetic), this team includes the actual people whose books, principles, and work define modern design.
 
-```
-ux-lead (orchestrator)
-├── Research Specialists (15)
-│   ├── don-norman       (Human-centered design, affordances)
-│   ├── jakob-nielsen    (Usability heuristics, evaluation)
-│   ├── erika-hall       (Efficient research, right questions)
-│   ├── jared-spool      (Strategic research, org alignment)
-│   ├── indi-young       (Mental models, deep understanding)
-│   ├── steve-portigal   (User interviews, story extraction)
-│   ├── steve-krug       (Usability testing, simplification)
-│   ├── alan-cooper      (Personas, goal-directed design)
-│   ├── kim-goodwin      (Scenarios, requirements)
-│   ├── whitney-quesenbery (Storytelling, accessibility)
-│   ├── leah-buley       (Lean methods, constraints)
-│   ├── jan-chipchase    (Field research, global contexts)
-│   ├── cyd-harrell      (Civic design, public sector)
-│   ├── susan-weinschenk (Behavioral science)
-│   └── gregg-bernstein  (Research operations)
-│
-├── Product & Industrial Designers (10)
-│   ├── dieter-rams      (Less but better, functionalism)
-│   ├── james-dyson      (Engineering, relentless iteration)
-│   ├── charles-ray-eames (Constraint-driven, joy)
-│   ├── jony-ive         (Obsessive refinement, Apple)
-│   ├── naoto-fukasawa   (Intuitive, invisible design)
-│   ├── philippe-starck  (Democratic, playful)
-│   ├── marc-newson      (Organic futurism)
-│   ├── karim-rashid     (Sensual minimalism)
-│   ├── patricia-urquiola (Texture, craft)
-│   └── yves-behar       (Purpose, sustainability)
-│
-├── Brand & Graphic Designers (11)
-│   ├── paul-rand        (Timeless logos, visual wit)
-│   ├── paula-scher      (Large-scale typography)
-│   ├── saul-bass        (Symbolic power, motion)
-│   ├── aaron-draplin    (Bold simplicity, Americana)
-│   ├── massimo-vignelli (Systematic grids)
-│   ├── stefan-sagmeister (Provocative, emotional)
-│   ├── milton-glaser    (Conceptual, iconic)
-│   ├── jessica-walsh    (Bold color, emotion)
-│   ├── michael-bierut   (Strategic identity)
-│   ├── herb-lubalin     (Typography as art)
-│   └── neville-brody    (Rule-breaking, punk)
-│
-├── Digital & UI Designers (10)
-│   ├── dann-petty       (Bold digital, landing pages)
-│   ├── marc-hemeon      (Product strategy at scale)
-│   ├── tobias-van-schneider (Premium, immersive)
-│   ├── rauno-freiberg   (Motion, performance)
-│   ├── pablo-stanley    (Illustration systems)
-│   ├── julie-zhuo       (Product at scale)
-│   ├── brian-lovin      (Systems thinking)
-│   ├── claudio-guglieri (Enterprise with soul)
-│   ├── mike-creative-mints (Visual craft)
-│   └── david-kelley     (Design thinking)
-│
-└── Leadership (2)
-    └── tina-roth-eisenberg (Joy-driven, community)
-```
+### The Roster
 
-### Process
+#### Research Specialists (15)
+They define problems and validate solutions.
 
-1. **Research** - Understand users and problems
-2. **Design Philosophy** - Establish principles
-3. **Visual Language** - Define the aesthetic
-4. **UI Design** - Create the interface
-5. **Synthesis** - Compile UX Plan for Dev Team
+| Agent | Expertise | Deployed For |
+|-------|-----------|--------------|
+| **don-norman** | Human-centered design, affordances | Any project - foundational |
+| **jakob-nielsen** | Usability heuristics, evaluation | Usability audits |
+| **erika-hall** | Efficient research, right questions | Lean projects |
+| **jared-spool** | Strategic research, org alignment | Enterprise, stakeholders |
+| **indi-young** | Mental models, deep understanding | Complex behaviors |
+| **steve-portigal** | User interviews, story extraction | Qualitative research |
+| **steve-krug** | Usability testing, simplification | "Don't make me think" |
+| **alan-cooper** | Personas, goal-directed design | User definition |
+| **kim-goodwin** | Scenarios, requirements | Requirements gathering |
+| **whitney-quesenbery** | Storytelling, accessibility | Inclusive design |
+| **leah-buley** | Lean methods, constraints | Small teams |
+| **jan-chipchase** | Field research, global contexts | International |
+| **cyd-harrell** | Civic design, public sector | Government |
+| **susan-weinschenk** | Behavioral science | Psychology-informed design |
+| **gregg-bernstein** | Research operations | Scaling research |
+
+#### Product & Industrial Designers (10)
+They design physical things and product philosophy.
+
+| Agent | Expertise | Deployed For |
+|-------|-----------|--------------|
+| **dieter-rams** | Less but better, functionalism | Minimalism, essentials |
+| **james-dyson** | Engineering, relentless iteration | Innovation, problem-solving |
+| **charles-ray-eames** | Constraint-driven, joy | Constraints as features |
+| **jony-ive** | Obsessive refinement, Apple | Premium, polish |
+| **naoto-fukasawa** | Intuitive, invisible design | "Without thought" |
+| **philippe-starck** | Democratic, playful | Accessible luxury |
+| **marc-newson** | Organic futurism | Future-forward aesthetics |
+| **karim-rashid** | Sensual minimalism | Bold form, color |
+| **patricia-urquiola** | Texture, craft | Material-focused |
+| **yves-behar** | Purpose, sustainability | Impact-driven |
+
+#### Brand & Graphic Designers (11)
+They create visual identity and brand systems.
+
+| Agent | Expertise | Deployed For |
+|-------|-----------|--------------|
+| **paul-rand** | Timeless logos, visual wit | Logo design, brand marks |
+| **paula-scher** | Large-scale typography | Environmental, bold type |
+| **saul-bass** | Symbolic power, motion | Logos, motion graphics |
+| **aaron-draplin** | Bold simplicity, Americana | Honest, workwear-inspired |
+| **massimo-vignelli** | Systematic grids | Design systems, structure |
+| **stefan-sagmeister** | Provocative, emotional | Experimental, boundary-pushing |
+| **milton-glaser** | Conceptual, iconic | Cultural impact, posters |
+| **jessica-walsh** | Bold color, emotion | Attention-demanding |
+| **michael-bierut** | Strategic identity | Corporate identity |
+| **herb-lubalin** | Typography as art | Expressive type, wordmarks |
+| **neville-brody** | Rule-breaking, punk | Anti-establishment |
+
+#### Digital & UI Designers (10)
+They shape digital experiences.
+
+| Agent | Expertise | Deployed For |
+|-------|-----------|--------------|
+| **dann-petty** | Bold digital, landing pages | Marketing sites, portfolios |
+| **marc-hemeon** | Product strategy at scale | Product design, teams |
+| **tobias-van-schneider** | Premium, immersive | High-end experiences |
+| **rauno-freiberg** | Motion, performance | Animations, interactions |
+| **pablo-stanley** | Illustration systems | Illustrated interfaces |
+| **julie-zhuo** | Product at scale | Large product teams |
+| **brian-lovin** | Systems thinking | Design systems, dev tools |
+| **claudio-guglieri** | Enterprise with soul | Enterprise that's not boring |
+| **mike-creative-mints** | Visual craft | High-fidelity polish |
+| **david-kelley** | Design thinking | Innovation, process |
+
+#### Leadership (2)
+They set culture and direction.
+
+| Agent | Expertise | Deployed For |
+|-------|-----------|--------------|
+| **tina-roth-eisenberg** | Joy-driven, community | Final check: does it spark joy? |
+
+### UX Team Deployment Examples
+
+**"Design a new mobile app"**
+→ ux-lead deploys: don-norman, jony-ive, naoto-fukasawa, rauno-freiberg, steve-krug
+
+**"Create brand identity for a startup"**
+→ ux-lead deploys: paul-rand, massimo-vignelli, paula-scher, michael-bierut
+
+**"Redesign our enterprise dashboard"**
+→ ux-lead deploys: julie-zhuo, claudio-guglieri, brian-lovin, jakob-nielsen
 
 ---
 
 ## Dev Team
 
-42 legendary developers who built the languages, frameworks, and infrastructure we use every day.
+**42 legendary developers who built the tools we all use.**
 
-### Structure
+This isn't a list of consultants. These are the actual creators of Linux, Git, Python, JavaScript, React, Node.js, Go, Rust, and more. The people who wrote the books on clean code, refactoring, and distributed systems.
 
-```
-dev-lead (orchestrator)
-├── Language Creators (11)
-│   ├── linus-torvalds   (Linux, Git)
-│   ├── dennis-ritchie   (C, Unix)
-│   ├── ken-thompson     (Unix, B, Go, UTF-8)
-│   ├── bjarne-stroustrup (C++)
-│   ├── rob-pike         (Go, Plan 9, UTF-8)
-│   ├── anders-hejlsberg (TypeScript, C#, Delphi)
-│   ├── chris-lattner    (Swift, LLVM, Clang, Mojo)
-│   ├── guido-van-rossum (Python)
-│   ├── yukihiro-matsumoto (Ruby)
-│   ├── brendan-eich     (JavaScript)
-│   └── graydon-hoare    (Rust)
-│
-├── Framework Creators (9)
-│   ├── dhh              (Ruby on Rails)
-│   ├── jordan-walke     (React)
-│   ├── evan-you         (Vue.js, Vite)
-│   ├── rich-harris      (Svelte)
-│   ├── guillermo-rauch  (Next.js, Socket.io, Vercel)
-│   ├── ryan-dahl        (Node.js, Deno)
-│   ├── tj-holowaychuk   (Express, Koa, Mocha)
-│   ├── taylor-otwell    (Laravel)
-│   └── matt-mullenweg   (WordPress)
-│
-├── Architecture & Patterns (5)
-│   ├── martin-kleppmann (DDIA, distributed systems)
-│   ├── martin-fowler    (Refactoring, PEAA)
-│   ├── robert-martin    (SOLID, Clean Code)
-│   ├── kent-beck        (XP, TDD, JUnit)
-│   └── sandi-metz       (POODR)
-│
-├── React Core (2)
-│   ├── dan-abramov      (Redux)
-│   └── sebastian-markbage (Hooks, Concurrent Mode)
-│
-├── Cloud & Infrastructure (3)
-│   ├── werner-vogels    (AWS Architecture)
-│   ├── urs-holzle       (Google Cloud)
-│   └── kelsey-hightower (Kubernetes)
-│
-├── AI/ML Platforms (6)
-│   ├── jeff-dean        (MapReduce, TensorFlow, Transformers)
-│   ├── demis-hassabis   (AlphaGo, AlphaFold, Gemini)
-│   ├── ilya-sutskever   (AlexNet, GPT)
-│   ├── andrej-karpathy  (Tesla Autopilot)
-│   ├── chris-olah       (Mechanistic Interpretability)
-│   └── dario-amodei     (Constitutional AI, Claude)
-│
-├── Game & Graphics (2)
-│   ├── john-carmack     (id Tech, Doom, Quake)
-│   └── tim-sweeney      (Unreal Engine)
-│
-├── Animation (2)
-│   ├── matt-perry       (Framer Motion)
-│   └── jack-doyle       (GSAP)
-│
-└── Performance (2)
-    ├── addy-osmani      (DevTools, Lighthouse)
-    └── jesse-james-garrett (Ajax, UX architecture)
-```
+### The Roster
 
-### Process
+#### Language Creators (11)
+The architects of the tools themselves.
 
-1. **Architecture** - Design the system
-2. **Coding Principles** - Establish standards
-3. **Implementation** - Build production code
-4. **Review** - Quality gate
-5. **Synthesis** - Deliverable ready
+| Agent | Created | Deployed For |
+|-------|---------|--------------|
+| **linus-torvalds** | Linux, Git | Systems programming, kernel-level |
+| **dennis-ritchie** | C, Unix | Low-level, language foundations |
+| **ken-thompson** | Unix, B, Go, UTF-8 | OS design, concurrency |
+| **bjarne-stroustrup** | C++ | Performance-critical systems |
+| **rob-pike** | Go, Plan 9, UTF-8 | Simplicity, concurrent services |
+| **anders-hejlsberg** | TypeScript, C#, Delphi | Type systems, developer tools |
+| **chris-lattner** | Swift, LLVM, Clang, Mojo | Apple platforms, compilers, AI |
+| **guido-van-rossum** | Python | Readable code, scripting, data |
+| **yukihiro-matsumoto** | Ruby | Programmer happiness, elegance |
+| **brendan-eich** | JavaScript | Web platform, dynamic languages |
+| **graydon-hoare** | Rust | Memory safety, systems |
+
+#### Framework Creators (9)
+The builders of ecosystems.
+
+| Agent | Created | Deployed For |
+|-------|---------|--------------|
+| **dhh** | Ruby on Rails | Full-stack, convention over config |
+| **jordan-walke** | React | Component architecture, UI |
+| **evan-you** | Vue.js, Vite | Progressive frameworks, build tools |
+| **rich-harris** | Svelte | Compiler-as-framework |
+| **guillermo-rauch** | Next.js, Socket.io, Vercel | Full-stack JS, deployment |
+| **ryan-dahl** | Node.js, Deno | JavaScript runtimes, async I/O |
+| **tj-holowaychuk** | Express, Koa, Mocha | Node.js ecosystem, APIs |
+| **taylor-otwell** | Laravel | Elegant PHP |
+| **matt-mullenweg** | WordPress | CMS, open source |
+
+#### Architecture & Patterns (5)
+The authors of how we build software.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **martin-kleppmann** | *DDIA* | Data architecture, distributed systems |
+| **martin-fowler** | Refactoring, PEAA | Patterns, enterprise architecture |
+| **robert-martin** | SOLID, Clean Code | Clean code, craftsmanship |
+| **kent-beck** | XP, TDD, JUnit | Test-driven development |
+| **sandi-metz** | POODR | Object-oriented design |
+
+#### React Core (2)
+The architects of React's evolution.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **dan-abramov** | Redux | State management, React internals |
+| **sebastian-markbage** | Hooks, Concurrent Mode | React architecture, TC39 |
+
+#### Cloud & Infrastructure (3)
+The builders of the platform.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **werner-vogels** | AWS Architecture | Cloud design, distributed systems |
+| **urs-holzle** | Google Cloud | Infrastructure, data centers |
+| **kelsey-hightower** | Kubernetes advocacy | Container orchestration |
+
+#### AI/ML Platforms (6)
+The minds behind AI.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **jeff-dean** | MapReduce, TensorFlow, Transformers | ML infrastructure, scale |
+| **demis-hassabis** | AlphaGo, AlphaFold, Gemini | Scientific AI, DeepMind |
+| **ilya-sutskever** | AlexNet, GPT | Deep learning, OpenAI |
+| **andrej-karpathy** | Tesla Autopilot | Computer vision, AI education |
+| **chris-olah** | Mechanistic Interpretability | Understanding neural networks |
+| **dario-amodei** | Constitutional AI, Claude | AI safety, Anthropic |
+
+#### Game & Graphics (2)
+The pioneers of real-time rendering.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **john-carmack** | id Tech, Doom, Quake | 3D graphics, game engines |
+| **tim-sweeney** | Unreal Engine | Game engines, real-time |
+
+#### Animation (2)
+The masters of motion.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **matt-perry** | Framer Motion, Motion | React animation, spring physics |
+| **jack-doyle** | GSAP | Timeline animation, ScrollTrigger |
+
+#### Performance (2)
+The optimizers.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **addy-osmani** | DevTools, Lighthouse | Web performance |
+| **jesse-james-garrett** | Ajax, Elements of UX | Async interfaces |
+
+### Dev Team Deployment Examples
+
+**"Build a React application"**
+→ dev-lead deploys: jordan-walke, dan-abramov, guillermo-rauch, matt-perry, robert-martin
+
+**"Design a distributed system"**
+→ dev-lead deploys: martin-kleppmann, werner-vogels, kelsey-hightower, linus-torvalds
+
+**"Build an AI/ML pipeline"**
+→ dev-lead deploys: jeff-dean, andrej-karpathy, chris-olah, guido-van-rossum
 
 ---
 
-## Usage
+## QA Team
 
-Call a team lead for any project, and they deploy the right specialists:
+**18 specialized QA agents. Professional testing as a service.**
 
-### Examples
+The QA Team brings enterprise-grade testing methodology across platforms, infrastructure, quality dimensions, and specialized domains. They don't just find bugs - they ensure quality.
 
-**"Deploy QA team for this iOS payment app"**
+### The Roster
+
+```
+qa-lead (orchestrator)
+├── Platform Specialists
+│   ├── qa-web         (React, Vue, Angular, PWA, cross-browser)
+│   ├── qa-ios         (XCUITest, SwiftUI, Universal Links)
+│   ├── qa-tvos        (Focus Engine, Siri Remote, 10-foot UI)
+│   ├── qa-watchos     (Complications, WatchKit, HealthKit)
+│   ├── qa-android     (Espresso, Compose, App Links)
+│   └── qa-flutter     (Widget tests, golden testing)
+│
+├── Infrastructure Specialists
+│   ├── qa-api         (REST, GraphQL, gRPC, contract testing)
+│   └── qa-backend     (Kafka, RabbitMQ, databases, caching)
+│
+├── Quality Dimension Specialists
+│   ├── qa-security    (OWASP Top 10, auth, injection)
+│   ├── qa-performance (k6, chaos engineering, Core Web Vitals)
+│   └── qa-accessibility (WCAG, screen readers, keyboard nav)
+│
+├── Methodology Specialists
+│   ├── qa-exploratory (Session-based testing, heuristics)
+│   └── qa-automation  (Framework design, CI/CD, POM)
+│
+└── Domain Specialists
+    ├── qa-payments    (Stripe, Square, PCI compliance)
+    ├── qa-media       (HLS, DASH, DRM, adaptive bitrate)
+    └── qa-i18n        (Localization, RTL, Unicode)
+```
+
+### QA Team Deployment Examples
+
+**"Test my iOS payment app"**
 → qa-lead deploys: qa-ios, qa-payments, qa-security, qa-accessibility
 
-**"Deploy UX team for brand identity"**
-→ ux-lead deploys: paul-rand, massimo-vignelli, paula-scher, michael-bierut
+**"Full web application testing"**
+→ qa-lead deploys: qa-web, qa-api, qa-performance, qa-automation
 
-**"Deploy dev team for React + Node API"**
-→ dev-lead deploys: jordan-walke, dan-abramov, ryan-dahl, tj-holowaychuk, martin-kleppmann
+**"Streaming media testing"**
+→ qa-lead deploys: qa-media, qa-web, qa-performance, qa-accessibility
 
 ---
 
-## Team Workflow
+## How It Works
+
+### The Workflow
 
 For full product builds, teams work sequentially:
 
 ```
-UX Team → Dev Team → QA Team
-   │          │          │
-   │          │          └── Test everything
-   │          └── Build to UX spec
-   └── Research, design, create UX Plan
+Growth Team → UX Team → Dev Team → QA Team
+     │            │          │          │
+     │            │          │          └── Test everything
+     │            │          └── Build to UX spec
+     │            └── Research, design, create UX Plan
+     └── Define positioning, channels, messaging
 ```
+
+### Orchestration
+
+Each team lead:
+1. Assesses the project and selects the right specialists
+2. Spawns agents sequentially, passing context forward
+3. Compresses phase outputs before the next phase
+4. Compiles the final deliverable
+
+### Deployment Commands
+
+| Command | What Happens |
+|---------|--------------|
+| "Deploy growth team for [task]" | growth-lead selects and coordinates growth specialists |
+| "Deploy UX team for [task]" | ux-lead selects and coordinates design specialists |
+| "Deploy dev team for [task]" | dev-lead selects and coordinates development specialists |
+| "Deploy QA team for [task]" | qa-lead selects and coordinates testing specialists |
+| "Deploy [specific agent]" | Direct deployment of individual specialist |
+
+### Example: Full Product Build
+
+**Input:** "Build a mobile app for tracking personal habits"
+
+1. **Growth Team** → Positioning, acquisition strategy, offer design
+2. **UX Team** → Research, design principles, visual language, UI specs
+3. **Dev Team** → Architecture, implementation, code review
+4. **QA Team** → Testing across platforms, performance, accessibility
+
+---
+
+## Philosophy
+
+### Why Legendary Personas?
+
+These aren't random experts. They're the actual people who:
+- **Coined the terms** we use (growth hacking, UX, positioning)
+- **Wrote the books** we study (DDIA, Clean Code, Atomic Habits)
+- **Built the tools** we use daily (Linux, Git, React, Python)
+- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS)
+
+When you deploy dan-abramov, you get React internals expertise. When you deploy gary-halbert, you get direct response copywriting that's generated billions.
+
+### Quality Standards
+
+Each team has explicit quality criteria:
+
+**Growth Team:** Clear positioning, measurable channels, offers that convert
+**UX Team:** Awwwards-worthy (40% design, 30% usability, 20% creativity, 10% content)
+**Dev Team:** Clean, tested, documented, production-ready code
+**QA Team:** Comprehensive test coverage, zero critical issues, performance verified
+
+---
+
+## Getting Started
+
+1. **Pick a team** based on your needs
+2. **Describe your project** to the team lead
+3. **The lead selects specialists** based on project type
+4. **Specialists are deployed sequentially**, each building on the last
+5. **Final deliverable is compiled** by the lead
 
 ---
 
 ## License
 
 MIT
+
+---
+
+*143 specialists. 4 teams. Built for people who refuse to ship mediocre work.*
