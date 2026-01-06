@@ -2,6 +2,18 @@
 
 Specialized AI agent teams for building products. Each team is structured like a professional agency with a lead orchestrator and domain specialists.
 
+---
+
+## Teams
+
+| Team | Lead | Specialists | Focus |
+|------|------|-------------|-------|
+| **QA Team** | qa-lead | 17 agents | Testing, quality assurance |
+| **UX Team** | ux-lead | 48 agents | Design, research, user experience |
+| **Dev Team** | dev-lead | 42 agents | Architecture, implementation, deployment |
+
+---
+
 ## QA Team
 
 17 specialized QA agents organized as a professional testing agency.
@@ -37,36 +49,193 @@ qa-lead (orchestrator)
     └── qa-i18n       (Localization, RTL, Unicode)
 ```
 
-### Usage
+---
 
-Call the QA team for a project, and the lead will deploy the right specialists:
+## UX Team
 
-- **Web app**: qa-lead deploys qa-web, qa-accessibility, qa-automation
-- **iOS app**: qa-lead deploys qa-ios, qa-accessibility, qa-performance
-- **Payment integration**: qa-lead deploys qa-payments, qa-security, qa-api
-- **Streaming app**: qa-lead deploys qa-media, qa-performance, qa-ios/qa-android
+48 legendary designers and researchers working as a world-class design agency.
 
-### Agent Details
+### Structure
 
-| Agent | Focus | Key Expertise |
-|-------|-------|---------------|
-| qa-lead | Orchestration | Project assessment, team deployment |
-| qa-web | Web platforms | React Testing Library, Playwright, visual regression |
-| qa-ios | Apple mobile | XCUITest, ViewInspector, Universal Links |
-| qa-tvos | Apple TV | Focus Engine, XCUIRemote, Top Shelf |
-| qa-watchos | Apple Watch | Complications, WatchKit, health permissions |
-| qa-android | Android | Espresso, Compose testing, deep links |
-| qa-flutter | Cross-platform | Widget tests, golden testing, platform channels |
-| qa-api | API testing | REST, GraphQL, gRPC, Pact contracts |
-| qa-backend | Backend systems | Message queues, event-driven, databases |
-| qa-security | Security | OWASP, injection, authentication |
-| qa-performance | Performance | Load testing, chaos engineering, metrics |
-| qa-accessibility | Accessibility | WCAG, screen readers, keyboard |
-| qa-exploratory | Manual testing | Session-based, heuristics, bug hunting |
-| qa-automation | Test automation | Framework design, CI/CD, stability |
-| qa-payments | Payments | Stripe, Square, PCI, subscriptions |
-| qa-media | Streaming | HLS, DRM, adaptive bitrate, live |
-| qa-i18n | Internationalization | L10n, RTL, Unicode, formatting |
+```
+ux-lead (orchestrator)
+├── Research Specialists (15)
+│   ├── don-norman       (Human-centered design, affordances)
+│   ├── jakob-nielsen    (Usability heuristics, evaluation)
+│   ├── erika-hall       (Efficient research, right questions)
+│   ├── jared-spool      (Strategic research, org alignment)
+│   ├── indi-young       (Mental models, deep understanding)
+│   ├── steve-portigal   (User interviews, story extraction)
+│   ├── steve-krug       (Usability testing, simplification)
+│   ├── alan-cooper      (Personas, goal-directed design)
+│   ├── kim-goodwin      (Scenarios, requirements)
+│   ├── whitney-quesenbery (Storytelling, accessibility)
+│   ├── leah-buley       (Lean methods, constraints)
+│   ├── jan-chipchase    (Field research, global contexts)
+│   ├── cyd-harrell      (Civic design, public sector)
+│   ├── susan-weinschenk (Behavioral science)
+│   └── gregg-bernstein  (Research operations)
+│
+├── Product & Industrial Designers (10)
+│   ├── dieter-rams      (Less but better, functionalism)
+│   ├── james-dyson      (Engineering, relentless iteration)
+│   ├── charles-ray-eames (Constraint-driven, joy)
+│   ├── jony-ive         (Obsessive refinement, Apple)
+│   ├── naoto-fukasawa   (Intuitive, invisible design)
+│   ├── philippe-starck  (Democratic, playful)
+│   ├── marc-newson      (Organic futurism)
+│   ├── karim-rashid     (Sensual minimalism)
+│   ├── patricia-urquiola (Texture, craft)
+│   └── yves-behar       (Purpose, sustainability)
+│
+├── Brand & Graphic Designers (11)
+│   ├── paul-rand        (Timeless logos, visual wit)
+│   ├── paula-scher      (Large-scale typography)
+│   ├── saul-bass        (Symbolic power, motion)
+│   ├── aaron-draplin    (Bold simplicity, Americana)
+│   ├── massimo-vignelli (Systematic grids)
+│   ├── stefan-sagmeister (Provocative, emotional)
+│   ├── milton-glaser    (Conceptual, iconic)
+│   ├── jessica-walsh    (Bold color, emotion)
+│   ├── michael-bierut   (Strategic identity)
+│   ├── herb-lubalin     (Typography as art)
+│   └── neville-brody    (Rule-breaking, punk)
+│
+├── Digital & UI Designers (10)
+│   ├── dann-petty       (Bold digital, landing pages)
+│   ├── marc-hemeon      (Product strategy at scale)
+│   ├── tobias-van-schneider (Premium, immersive)
+│   ├── rauno-freiberg   (Motion, performance)
+│   ├── pablo-stanley    (Illustration systems)
+│   ├── julie-zhuo       (Product at scale)
+│   ├── brian-lovin      (Systems thinking)
+│   ├── claudio-guglieri (Enterprise with soul)
+│   ├── mike-creative-mints (Visual craft)
+│   └── david-kelley     (Design thinking)
+│
+└── Leadership (2)
+    └── tina-roth-eisenberg (Joy-driven, community)
+```
+
+### Process
+
+1. **Research** - Understand users and problems
+2. **Design Philosophy** - Establish principles
+3. **Visual Language** - Define the aesthetic
+4. **UI Design** - Create the interface
+5. **Synthesis** - Compile UX Plan for Dev Team
+
+---
+
+## Dev Team
+
+42 legendary developers who built the languages, frameworks, and infrastructure we use every day.
+
+### Structure
+
+```
+dev-lead (orchestrator)
+├── Language Creators (11)
+│   ├── linus-torvalds   (Linux, Git)
+│   ├── dennis-ritchie   (C, Unix)
+│   ├── ken-thompson     (Unix, B, Go, UTF-8)
+│   ├── bjarne-stroustrup (C++)
+│   ├── rob-pike         (Go, Plan 9, UTF-8)
+│   ├── anders-hejlsberg (TypeScript, C#, Delphi)
+│   ├── chris-lattner    (Swift, LLVM, Clang, Mojo)
+│   ├── guido-van-rossum (Python)
+│   ├── yukihiro-matsumoto (Ruby)
+│   ├── brendan-eich     (JavaScript)
+│   └── graydon-hoare    (Rust)
+│
+├── Framework Creators (9)
+│   ├── dhh              (Ruby on Rails)
+│   ├── jordan-walke     (React)
+│   ├── evan-you         (Vue.js, Vite)
+│   ├── rich-harris      (Svelte)
+│   ├── guillermo-rauch  (Next.js, Socket.io, Vercel)
+│   ├── ryan-dahl        (Node.js, Deno)
+│   ├── tj-holowaychuk   (Express, Koa, Mocha)
+│   ├── taylor-otwell    (Laravel)
+│   └── matt-mullenweg   (WordPress)
+│
+├── Architecture & Patterns (5)
+│   ├── martin-kleppmann (DDIA, distributed systems)
+│   ├── martin-fowler    (Refactoring, PEAA)
+│   ├── robert-martin    (SOLID, Clean Code)
+│   ├── kent-beck        (XP, TDD, JUnit)
+│   └── sandi-metz       (POODR)
+│
+├── React Core (2)
+│   ├── dan-abramov      (Redux)
+│   └── sebastian-markbage (Hooks, Concurrent Mode)
+│
+├── Cloud & Infrastructure (3)
+│   ├── werner-vogels    (AWS Architecture)
+│   ├── urs-holzle       (Google Cloud)
+│   └── kelsey-hightower (Kubernetes)
+│
+├── AI/ML Platforms (6)
+│   ├── jeff-dean        (MapReduce, TensorFlow, Transformers)
+│   ├── demis-hassabis   (AlphaGo, AlphaFold, Gemini)
+│   ├── ilya-sutskever   (AlexNet, GPT)
+│   ├── andrej-karpathy  (Tesla Autopilot)
+│   ├── chris-olah       (Mechanistic Interpretability)
+│   └── dario-amodei     (Constitutional AI, Claude)
+│
+├── Game & Graphics (2)
+│   ├── john-carmack     (id Tech, Doom, Quake)
+│   └── tim-sweeney      (Unreal Engine)
+│
+├── Animation (2)
+│   ├── matt-perry       (Framer Motion)
+│   └── jack-doyle       (GSAP)
+│
+└── Performance (2)
+    ├── addy-osmani      (DevTools, Lighthouse)
+    └── jesse-james-garrett (Ajax, UX architecture)
+```
+
+### Process
+
+1. **Architecture** - Design the system
+2. **Coding Principles** - Establish standards
+3. **Implementation** - Build production code
+4. **Review** - Quality gate
+5. **Synthesis** - Deliverable ready
+
+---
+
+## Usage
+
+Call a team lead for any project, and they deploy the right specialists:
+
+### Examples
+
+**"Deploy QA team for this iOS payment app"**
+→ qa-lead deploys: qa-ios, qa-payments, qa-security, qa-accessibility
+
+**"Deploy UX team for brand identity"**
+→ ux-lead deploys: paul-rand, massimo-vignelli, paula-scher, michael-bierut
+
+**"Deploy dev team for React + Node API"**
+→ dev-lead deploys: jordan-walke, dan-abramov, ryan-dahl, tj-holowaychuk, martin-kleppmann
+
+---
+
+## Team Workflow
+
+For full product builds, teams work sequentially:
+
+```
+UX Team → Dev Team → QA Team
+   │          │          │
+   │          │          └── Test everything
+   │          └── Build to UX spec
+   └── Research, design, create UX Plan
+```
+
+---
 
 ## License
 
