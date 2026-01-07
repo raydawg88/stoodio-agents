@@ -1,10 +1,10 @@
 # Stoodio Agents
 
-**194 world-class specialists. 5 legendary teams. Zero mediocrity.**
+**244 world-class specialists. 6 legendary teams. Zero mediocrity.**
 
 Stoodio Agents is a collection of AI-powered specialist teams that bring the expertise of industry legends to your product development workflow. Each team is structured like a professional agency with a lead orchestrator coordinating domain specialists.
 
-Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geoffrey Hinton, and 190 other legends on speed dial.
+Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geoffrey Hinton, Hadley Wickham, and 239 other legends on speed dial.
 
 ---
 
@@ -13,10 +13,160 @@ Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geof
 | Team | Lead | Specialists | What They Do |
 |------|------|-------------|--------------|
 | **AI Team** | ai-lead | 50 agents | Platform expertise, prompt engineering, RAG, agents, safety |
+| **Data Team** | data-lead | 50 agents | Pipelines, data science, quality, visualization, prediction |
 | **Growth Team** | growth-lead | 35 agents | Customer acquisition, copywriting, SEO, brand strategy |
 | **UX Team** | ux-lead | 48 agents | Research, design philosophy, visual language, UI design |
 | **Dev Team** | dev-lead | 42 agents | Architecture, coding principles, implementation, review |
 | **QA Team** | qa-lead | 18 agents | Testing, quality assurance, accessibility, security |
+
+---
+
+## Data Team
+
+**50 specialists who transform raw chaos into trusted, actionable intelligence.**
+
+The Data Team includes the creators of Hadoop, Airflow, dbt, and tidyverse, the pioneers of dimensional modeling and causal inference, and the engineers who built production data systems at scale. They know data pipelines, statistical analysis, and data quality inside out.
+
+### The Roster
+
+#### Data Science Legends (6)
+The visionaries who defined modern data science.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **dj-patil** | First US Chief Data Scientist | Data product thinking, data culture |
+| **cassie-kozyrkov** | Google Chief Decision Scientist | Decision intelligence, statistical thinking |
+| **hadley-wickham** | Tidyverse creator, ggplot2 | Tidy data, data wrangling |
+| **andrew-gelman** | Bayesian Data Analysis, Stan | Hierarchical models, Bayesian methods |
+| **rob-hyndman** | forecast package, time series | Forecasting methodology |
+| **judea-pearl** | Causal inference, DAGs | Causality, counterfactuals |
+
+#### Data Engineering Pioneers (5)
+The builders of data infrastructure.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **maxime-beauchemin** | Airflow, Superset creator | Pipeline orchestration, BI |
+| **tristan-handy** | dbt Labs founder | Analytics engineering |
+| **doug-cutting** | Hadoop creator | Distributed data processing |
+| **erik-bernhardsson** | Luigi, Annoy, Spotify recs | ML pipelines, workflow systems |
+| **holden-karau** | Spark expert, author | Distributed computing, performance |
+
+#### Data Modeling & Architecture (4)
+The architects of data structure.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **ralph-kimball** | Dimensional modeling, star schemas | Data warehouse design |
+| **bill-inmon** | Data warehouse father | Enterprise data architecture |
+| **data-modeler** | Schema design | Entity relationships |
+| **lakehouse-architect** | Medallion architecture | Modern data platforms |
+
+#### Data Visualization (4)
+The masters of showing data.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **edward-tufte** | Data-ink ratio, visual excellence | Visualization principles |
+| **stephen-few** | Dashboard design | BI dashboards, information display |
+| **viz-developer** | D3.js, Plotly, interactive viz | Custom visualizations |
+| **dashboard-designer** | Tableau, Looker, Power BI | BI tool dashboards |
+
+#### Data Quality & Governance (4)
+The guardians of data trust.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **barr-moses** | Monte Carlo, data observability | Data reliability |
+| **data-quality-specialist** | Validation, profiling | Quality rules, anomaly detection |
+| **data-governance-lead** | Policies, compliance | Data catalog, governance |
+| **data-steward** | Domain ownership | Documentation, stewardship |
+
+#### ETL & Pipeline (4)
+The builders of data highways.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **pipeline-architect** | End-to-end design | Pipeline architecture |
+| **etl-developer** | Extract-Transform-Load | ETL implementation |
+| **data-integration-specialist** | APIs, CDC, connectors | System integration |
+| **stream-processing-engineer** | Kafka, Flink, real-time | Streaming pipelines |
+
+#### Analytics Engineering (4)
+The bridge between data and decisions.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **analytics-engineer** | dbt models, testing | Analytics layer |
+| **dbt-developer** | Macros, packages | dbt implementation |
+| **metrics-layer-specialist** | Semantic layer | Metric definitions |
+| **semantic-layer-architect** | Universal metrics | Enterprise metrics |
+
+#### Statistics & Inference (4)
+The rigorous thinkers.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **statistician** | Hypothesis testing | Experimental analysis |
+| **bayesian-analyst** | Probabilistic modeling | Uncertainty quantification |
+| **causal-inference-specialist** | DAGs, counterfactuals | Causal analysis |
+| **experimental-design-expert** | A/B testing, power analysis | Experiment design |
+
+#### Prediction & Forecasting (4)
+The seers of future data.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **forecasting-specialist** | ARIMA, Prophet, ensembles | Production forecasting |
+| **time-series-analyst** | Trend, seasonality | Time series exploration |
+| **predictive-modeler** | ML models, feature engineering | Prediction models |
+| **demand-planner** | Inventory, capacity | Business forecasting |
+
+#### Feature Engineering (3)
+The signal extractors.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **feature-engineer** | Feature creation, selection | Feature development |
+| **feature-store-architect** | Feast, Tecton | Feature infrastructure |
+| **data-transformation-specialist** | Normalization, encoding | Data prep |
+
+#### Data Observability (3)
+The watchers of data health.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **data-observability-engineer** | Monitoring, alerting | Pipeline health |
+| **data-reliability-engineer** | SLOs, incident response | Data reliability |
+| **data-sla-manager** | Contracts, reporting | SLA management |
+
+#### Data Janitor Squad (5)
+The investigators and cleaners.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **data-forensics** | Entity extraction, cross-document linking | Investigation |
+| **data-validator** | Match validation, confidence scoring | Quality gates |
+| **data-cleaner** | Standardization, deduplication | Data cleaning |
+| **data-mapper** | Relationship visualization | Network analysis |
+| **data-wrangler** | Format conversion, schema reconciliation | Data wrangling |
+
+### Data Team Deployment Examples
+
+**"Build a data warehouse"**
+→ data-lead deploys: ralph-kimball, data-modeler, lakehouse-architect, etl-developer
+
+**"Implement data quality monitoring"**
+→ data-lead deploys: barr-moses, data-observability-engineer, data-quality-specialist, data-reliability-engineer
+
+**"Create forecasting system"**
+→ data-lead deploys: rob-hyndman, forecasting-specialist, time-series-analyst, feature-engineer
+
+**"Investigate data for entity connections"**
+→ data-lead deploys: data-forensics, data-validator, data-cleaner, data-mapper
+
+**"Design analytics layer with dbt"**
+→ data-lead deploys: tristan-handy, analytics-engineer, dbt-developer, metrics-layer-specialist
 
 ---
 
@@ -539,12 +689,13 @@ qa-lead (orchestrator)
 For full product builds, teams work sequentially:
 
 ```
-AI Team → Growth Team → UX Team → Dev Team → QA Team
-   │           │            │          │          │
-   │           │            │          │          └── Test everything
-   │           │            │          └── Build to UX spec
-   │           │            └── Research, design, create UX Plan
-   │           └── Define positioning, channels, messaging
+AI Team → Data Team → Growth Team → UX Team → Dev Team → QA Team
+   │           │            │            │          │          │
+   │           │            │            │          │          └── Test everything
+   │           │            │            │          └── Build to UX spec
+   │           │            │            └── Research, design, create UX Plan
+   │           │            └── Define positioning, channels, messaging
+   │           └── Design data pipelines, analytics, ML features
    └── Design AI architecture, prompts, integration
 ```
 
@@ -561,6 +712,7 @@ Each team lead:
 | Command | What Happens |
 |---------|--------------|
 | "Deploy AI team for [task]" | ai-lead selects and coordinates AI specialists |
+| "Deploy data team for [task]" | data-lead selects and coordinates data specialists |
 | "Deploy growth team for [task]" | growth-lead selects and coordinates growth specialists |
 | "Deploy UX team for [task]" | ux-lead selects and coordinates design specialists |
 | "Deploy dev team for [task]" | dev-lead selects and coordinates development specialists |
@@ -572,10 +724,11 @@ Each team lead:
 **Input:** "Build a Claude-powered document Q&A system"
 
 1. **AI Team** → RAG architecture, prompt design, context strategy
-2. **Growth Team** → Positioning, acquisition strategy, pricing
-3. **UX Team** → Research, design principles, visual language, UI specs
-4. **Dev Team** → Architecture, implementation, code review
-5. **QA Team** → Testing across platforms, performance, accessibility
+2. **Data Team** → Data pipeline, embedding storage, quality monitoring
+3. **Growth Team** → Positioning, acquisition strategy, pricing
+4. **UX Team** → Research, design principles, visual language, UI specs
+5. **Dev Team** → Architecture, implementation, code review
+6. **QA Team** → Testing across platforms, performance, accessibility
 
 ---
 
@@ -587,16 +740,17 @@ These aren't random experts. They're the actual people who:
 - **Won Nobel Prizes** for neural networks and protein folding
 - **Coined the terms** we use (growth hacking, UX, positioning, prompt injection)
 - **Wrote the books** we study (DDIA, Clean Code, Atomic Habits, Build LLM From Scratch)
-- **Built the tools** we use daily (Linux, Git, React, Python, LangChain, MemGPT)
-- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS, Constitutional AI)
+- **Built the tools** we use daily (Linux, Git, React, Python, LangChain, MemGPT, Airflow, dbt)
+- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS, Constitutional AI, tidy data)
 
-When you deploy andrej-karpathy, you get neural network expertise from the person who built Tesla Autopilot. When you deploy dario-amodei, you get AI safety strategy from the inventor of Constitutional AI.
+When you deploy andrej-karpathy, you get neural network expertise from the person who built Tesla Autopilot. When you deploy hadley-wickham, you get data wrangling expertise from the creator of tidyverse.
 
 ### Quality Standards
 
 Each team has explicit quality criteria:
 
 **AI Team:** Production-ready AI systems with safety, cost optimization, and reliability
+**Data Team:** Trusted pipelines, accurate models, clean data, reliable observability
 **Growth Team:** Clear positioning, measurable channels, offers that convert
 **UX Team:** Awwwards-worthy (40% design, 30% usability, 20% creativity, 10% content)
 **Dev Team:** Clean, tested, documented, production-ready code
@@ -620,4 +774,4 @@ MIT
 
 ---
 
-*194 specialists. 5 teams. Built for people who refuse to ship mediocre work.*
+*244 specialists. 6 teams. Built for people who refuse to ship mediocre work.*
