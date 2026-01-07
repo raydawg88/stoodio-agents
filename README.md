@@ -1,10 +1,10 @@
 # Stoodio Agents
 
-**244 world-class specialists. 6 legendary teams. Zero mediocrity.**
+**261 world-class specialists. 7 legendary teams. Zero mediocrity.**
 
 Stoodio Agents is a collection of AI-powered specialist teams that bring the expertise of industry legends to your product development workflow. Each team is structured like a professional agency with a lead orchestrator coordinating domain specialists.
 
-Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geoffrey Hinton, Hadley Wickham, and 239 other legends on speed dial.
+Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Roger Martin, Marty Cagan, and 256 other legends on speed dial.
 
 ---
 
@@ -12,12 +12,87 @@ Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geof
 
 | Team | Lead | Specialists | What They Do |
 |------|------|-------------|--------------|
+| **Strategy Team** | strategy-lead | 17 agents | Intake, questioning, briefs, planning, orchestration |
 | **AI Team** | ai-lead | 50 agents | Platform expertise, prompt engineering, RAG, agents, safety |
 | **Data Team** | data-lead | 50 agents | Pipelines, data science, quality, visualization, prediction |
 | **Growth Team** | growth-lead | 35 agents | Customer acquisition, copywriting, SEO, brand strategy |
 | **UX Team** | ux-lead | 48 agents | Research, design philosophy, visual language, UI design |
 | **Dev Team** | dev-lead | 42 agents | Architecture, coding principles, implementation, review |
 | **QA Team** | qa-lead | 18 agents | Testing, quality assurance, accessibility, security |
+
+---
+
+## Strategy Team
+
+**17 specialists who turn vague ideas into actionable plans. The "big boss" layer.**
+
+The Strategy Team is where every project begins. They receive project descriptions, ask the hard questions, create briefs, decide which teams are needed, and orchestrate execution. This team includes the authors of "Playing to Win," "7 Powers," "Inspired," "Obviously Awesome," and other foundational strategy texts.
+
+### The Roster
+
+#### Functional Agents (5)
+The operational core of strategic work.
+
+| Agent | Role | Deployed For |
+|-------|------|--------------|
+| **the-questioner** | Challenges assumptions, finds gaps | Surfacing risks, validating ideas |
+| **the-pragmatist** | Reality checks on resources/timeline | Grounding ambitious plans |
+| **product-strategist** | User needs, market fit | Product-market fit analysis |
+| **technical-strategist** | Feasibility, architecture implications | Technical risk assessment |
+| **brief-writer** | Crisp project briefs (Pyramid Principle) | Creating single source of truth |
+
+#### Strategy Legends (6)
+The authors who defined modern strategy.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **roger-martin** | Playing to Win, 5 strategic questions | Strategic choice, where-to-play |
+| **hamilton-helmer** | 7 Powers, competitive moats | Sustainable advantage, barriers |
+| **michael-porter** | 5 Forces, value chains | Competitive positioning |
+| **jim-collins** | Good to Great, Level 5 Leadership | Organizational excellence |
+| **clayton-christensen** | Disruption theory, Jobs to be Done | Innovation strategy, JTBD |
+| **barbara-minto** | Pyramid Principle, structured thinking | Clear communication |
+
+#### Product Strategy Legends (6)
+The experts who defined modern product work.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **marty-cagan** | Inspired, Empowered, SVPG | Product discovery, empowered teams |
+| **april-dunford** | Obviously Awesome, positioning | Product positioning, sales pitch |
+| **gibson-biddle** | DHM framework, Netflix strategy | Delight + hard-to-copy + margin |
+| **teresa-torres** | Continuous Discovery Habits | Opportunity solution trees |
+| **melissa-perri** | Escaping the Build Trap | Outcome-focused product |
+| **claire-hughes-johnson** | Scaling People, Stripe COO | Operations, organizational design |
+
+### Strategy Team Deployment Examples
+
+**"I have a product idea - help me think it through"**
+→ strategy-lead deploys: the-questioner, product-strategist, marty-cagan, april-dunford
+
+**"Plan a new initiative"**
+→ strategy-lead deploys: roger-martin, hamilton-helmer, the-pragmatist, brief-writer
+
+**"We're stuck on strategic direction"**
+→ strategy-lead deploys: michael-porter, jim-collins, clayton-christensen, the-questioner
+
+**"Prepare for a major product launch"**
+→ strategy-lead deploys: april-dunford, gibson-biddle, claire-hughes-johnson, brief-writer
+
+**"Full strategic review of a project"**
+→ strategy-lead deploys: the-questioner → [relevant strategists] → the-pragmatist → brief-writer
+
+### How Strategy Team Works
+
+The Strategy Team is the entry point for all major projects:
+
+1. **Intake** - strategy-lead receives project description
+2. **Questioning** - the-questioner surfaces gaps and assumptions
+3. **Strategic Analysis** - relevant legendary strategists provide perspective
+4. **Reality Check** - the-pragmatist grounds everything
+5. **Brief Creation** - brief-writer produces the canonical brief
+6. **Plan Presentation** - strategy-lead presents plan for approval
+7. **Handoff** - approved brief goes to execution teams (AI, Data, Growth, UX, Dev, QA)
 
 ---
 
@@ -689,14 +764,15 @@ qa-lead (orchestrator)
 For full product builds, teams work sequentially:
 
 ```
-AI Team → Data Team → Growth Team → UX Team → Dev Team → QA Team
-   │           │            │            │          │          │
-   │           │            │            │          │          └── Test everything
-   │           │            │            │          └── Build to UX spec
-   │           │            │            └── Research, design, create UX Plan
-   │           │            └── Define positioning, channels, messaging
-   │           └── Design data pipelines, analytics, ML features
-   └── Design AI architecture, prompts, integration
+Strategy Team → AI Team → Data Team → Growth Team → UX Team → Dev Team → QA Team
+      │             │           │            │            │          │          │
+      │             │           │            │            │          │          └── Test everything
+      │             │           │            │            │          └── Build to UX spec
+      │             │           │            │            └── Research, design, create UX Plan
+      │             │           │            └── Define positioning, channels, messaging
+      │             │           └── Design data pipelines, analytics, ML features
+      │             └── Design AI architecture, prompts, integration
+      └── Intake, question, brief, plan, orchestrate
 ```
 
 ### Orchestration
@@ -711,6 +787,7 @@ Each team lead:
 
 | Command | What Happens |
 |---------|--------------|
+| "Deploy strategy team for [task]" | strategy-lead questions, plans, and creates brief |
 | "Deploy AI team for [task]" | ai-lead selects and coordinates AI specialists |
 | "Deploy data team for [task]" | data-lead selects and coordinates data specialists |
 | "Deploy growth team for [task]" | growth-lead selects and coordinates growth specialists |
@@ -723,12 +800,13 @@ Each team lead:
 
 **Input:** "Build a Claude-powered document Q&A system"
 
-1. **AI Team** → RAG architecture, prompt design, context strategy
-2. **Data Team** → Data pipeline, embedding storage, quality monitoring
-3. **Growth Team** → Positioning, acquisition strategy, pricing
-4. **UX Team** → Research, design principles, visual language, UI specs
-5. **Dev Team** → Architecture, implementation, code review
-6. **QA Team** → Testing across platforms, performance, accessibility
+1. **Strategy Team** → Question assumptions, strategic analysis, create brief
+2. **AI Team** → RAG architecture, prompt design, context strategy
+3. **Data Team** → Data pipeline, embedding storage, quality monitoring
+4. **Growth Team** → Positioning, acquisition strategy, pricing
+5. **UX Team** → Research, design principles, visual language, UI specs
+6. **Dev Team** → Architecture, implementation, code review
+7. **QA Team** → Testing across platforms, performance, accessibility
 
 ---
 
@@ -739,16 +817,17 @@ Each team lead:
 These aren't random experts. They're the actual people who:
 - **Won Nobel Prizes** for neural networks and protein folding
 - **Coined the terms** we use (growth hacking, UX, positioning, prompt injection)
-- **Wrote the books** we study (DDIA, Clean Code, Atomic Habits, Build LLM From Scratch)
-- **Built the tools** we use daily (Linux, Git, React, Python, LangChain, MemGPT, Airflow, dbt)
-- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS, Constitutional AI, tidy data)
+- **Wrote the books** we study (Playing to Win, 7 Powers, Inspired, DDIA, Clean Code)
+- **Built the tools** we use daily (Linux, Git, React, Python, LangChain, Airflow, dbt)
+- **Created the frameworks** we follow (5 Forces, DHM, SOLID, 10 Principles, Constitutional AI)
 
-When you deploy andrej-karpathy, you get neural network expertise from the person who built Tesla Autopilot. When you deploy hadley-wickham, you get data wrangling expertise from the creator of tidyverse.
+When you deploy andrej-karpathy, you get neural network expertise from the person who built Tesla Autopilot. When you deploy roger-martin, you get strategic thinking from the #1 ranked management thinker. When you deploy marty-cagan, you get product strategy from the most influential person in the product space.
 
 ### Quality Standards
 
 Each team has explicit quality criteria:
 
+**Strategy Team:** Clear problem definition, validated assumptions, actionable brief, realistic plan
 **AI Team:** Production-ready AI systems with safety, cost optimization, and reliability
 **Data Team:** Trusted pipelines, accurate models, clean data, reliable observability
 **Growth Team:** Clear positioning, measurable channels, offers that convert
@@ -774,4 +853,4 @@ MIT
 
 ---
 
-*244 specialists. 6 teams. Built for people who refuse to ship mediocre work.*
+*261 specialists. 7 teams. Built for people who refuse to ship mediocre work.*
