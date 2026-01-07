@@ -1,10 +1,10 @@
 # Stoodio Agents
 
-**143 world-class specialists. 4 legendary teams. Zero mediocrity.**
+**194 world-class specialists. 5 legendary teams. Zero mediocrity.**
 
 Stoodio Agents is a collection of AI-powered specialist teams that bring the expertise of industry legends to your product development workflow. Each team is structured like a professional agency with a lead orchestrator coordinating domain specialists.
 
-Think of it as having access to Dieter Rams, Gary Halbert, Linus Torvalds, and 140 other legends on speed dial.
+Think of it as having access to Dieter Rams, Gary Halbert, Andrej Karpathy, Geoffrey Hinton, and 190 other legends on speed dial.
 
 ---
 
@@ -12,10 +12,163 @@ Think of it as having access to Dieter Rams, Gary Halbert, Linus Torvalds, and 1
 
 | Team | Lead | Specialists | What They Do |
 |------|------|-------------|--------------|
+| **AI Team** | ai-lead | 50 agents | Platform expertise, prompt engineering, RAG, agents, safety |
 | **Growth Team** | growth-lead | 35 agents | Customer acquisition, copywriting, SEO, brand strategy |
 | **UX Team** | ux-lead | 48 agents | Research, design philosophy, visual language, UI design |
 | **Dev Team** | dev-lead | 42 agents | Architecture, coding principles, implementation, review |
 | **QA Team** | qa-lead | 18 agents | Testing, quality assurance, accessibility, security |
+
+---
+
+## AI Team
+
+**50 specialists who built, trained, and deployed the AI systems everyone uses.**
+
+The AI Team includes Nobel Prize winners, the creators of GPT and AlphaFold, the inventors of RLHF and Constitutional AI, and the engineers who build production AI at scale. They know Claude, GPT, and Gemini inside out.
+
+### The Roster
+
+#### AI Pioneers (6)
+The legends who built modern AI.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **geoffrey-hinton** | Godfather of Deep Learning, Nobel 2024 | Neural architecture, training fundamentals |
+| **yann-lecun** | Meta Chief AI Scientist, CNNs, world models | Vision AI, self-supervised learning |
+| **andrej-karpathy** | Tesla Autopilot, Zero to Hero, nanoGPT | Practical implementation, training |
+| **ilya-sutskever** | GPT architect, AlexNet, SSI founder | Scaling laws, alignment research |
+| **demis-hassabis** | DeepMind CEO, AlphaGo, AlphaFold, Nobel 2024 | Scientific AI, reinforcement learning |
+| **fei-fei-li** | ImageNet creator, Human-Centered AI | Computer vision, AI ethics |
+
+#### Claude Specialists (5)
+Anthropic experts for Claude-specific work.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **dario-amodei** | Anthropic CEO, Constitutional AI | AI strategy, safety-first design |
+| **chris-olah** | Mechanistic interpretability pioneer | Understanding model internals |
+| **amanda-askell** | Claude character/personality design | Prompt design, persona creation |
+| **jan-leike** | Alignment Science lead, superalignment | Safety mechanisms, RLHF strategy |
+| **claude-engineer** | MCP, Claude Code, Anthropic API | Claude integration, tool use |
+
+#### GPT Specialists (4)
+OpenAI experts for GPT/Codex work.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **lilian-weng** | LLM agents blog, Safety Systems | Agent architecture, safety |
+| **john-schulman** | PPO inventor, RLHF pioneer | Training optimization, reward models |
+| **gpt-engineer** | OpenAI API, Assistants, function calling | GPT integration, API patterns |
+| **codex-specialist** | Code generation, Copilot patterns | AI coding assistants |
+
+#### Gemini Specialists (4)
+Google DeepMind experts for Gemini work.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **jeff-dean** | Google Chief Scientist, TensorFlow | Infrastructure at scale |
+| **gemini-engineer** | Gemini API, model selection | Gemini integration, grounding |
+| **gemini-cli-expert** | Terminal AI, agentic coding | Command-line AI tools |
+| **multimodal-specialist** | Vision, audio, video AI | Image/video understanding |
+
+#### Prompt Engineering (4)
+Masters of prompt craft.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **elvis-saravia** | DAIR.AI, Prompt Engineering Guide | Prompt frameworks, best practices |
+| **simon-willison** | Datasette, coined "prompt injection" | Security, practical tooling |
+| **prompt-architect** | System prompts, production patterns | Production prompt systems |
+| **chain-of-thought-specialist** | Reasoning prompts, Tree of Thought | Complex reasoning tasks |
+
+#### AI Agents & Orchestration (4)
+Multi-agent and workflow specialists.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **harrison-chase** | LangChain founder, Deep Agents | Agent frameworks, orchestration |
+| **joao-moura** | CrewAI founder, role-based agents | Multi-agent teams |
+| **agent-architect** | Agent design patterns, state machines | Agent system design |
+| **tool-use-specialist** | Function calling, MCP servers | Tool integration |
+
+#### RAG & Retrieval (4)
+Retrieval-augmented generation experts.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **rag-architect** | End-to-end RAG systems | RAG pipeline design |
+| **embedding-specialist** | Vector search, similarity | Embedding optimization |
+| **chunking-strategist** | Document processing | Chunk size, overlap |
+| **reranking-specialist** | Result optimization | Search quality tuning |
+
+#### Memory & Context (4)
+Long context and memory system experts.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **charles-packer** | MemGPT inventor, Letta | Memory architecture |
+| **context-engineer** | Window optimization | Token efficiency |
+| **long-context-specialist** | Million-token strategies | Long document processing |
+| **memory-architect** | Persistent AI memory | Memory system design |
+
+#### Safety & Alignment (3)
+AI safety specialists.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **alignment-researcher** | Constitutional AI, RLHF | Safety architecture |
+| **red-team-specialist** | Jailbreak detection | Security testing |
+| **safety-evaluator** | Guardrails, content filtering | Safety systems |
+
+#### Fine-Tuning (3)
+Training and adaptation experts.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **rlhf-specialist** | Human feedback training | RLHF pipelines |
+| **lora-expert** | LoRA, QLoRA, efficient tuning | Parameter-efficient training |
+| **dpo-specialist** | Direct Preference Optimization | Simplified alignment |
+
+#### Evaluation (3)
+Benchmarking and quality experts.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **wei-lin-chiang** | LMSYS Chatbot Arena | Model comparison |
+| **benchmark-designer** | Eval frameworks | Custom benchmarks |
+| **quality-analyst** | Performance metrics | Quality monitoring |
+
+#### Token Optimization (3)
+Efficiency and cost experts.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **inference-optimizer** | Latency, throughput | Production inference |
+| **token-economist** | Cost analysis | Budget optimization |
+| **quantization-specialist** | Model compression | Size reduction |
+
+#### AI Education (3)
+Teachers and community builders.
+
+| Agent | Known For | Deployed For |
+|-------|-----------|--------------|
+| **sebastian-raschka** | "Build LLM From Scratch" | Deep technical education |
+| **andrew-ng** | DeepLearning.AI, Coursera | Curriculum design |
+| **clem-delangue** | Hugging Face CEO | Open source strategy |
+
+### AI Team Deployment Examples
+
+**"Build a Claude-based product"**
+→ ai-lead deploys: claude-engineer, amanda-askell, prompt-architect, context-engineer, safety-evaluator
+
+**"Implement RAG for our documentation"**
+→ ai-lead deploys: rag-architect, chunking-strategist, embedding-specialist, reranking-specialist
+
+**"Design a multi-agent system"**
+→ ai-lead deploys: harrison-chase, joao-moura, agent-architect, tool-use-specialist, memory-architect
+
+**"Optimize our AI costs"**
+→ ai-lead deploys: token-economist, inference-optimizer, quantization-specialist, context-engineer
 
 ---
 
@@ -386,12 +539,13 @@ qa-lead (orchestrator)
 For full product builds, teams work sequentially:
 
 ```
-Growth Team → UX Team → Dev Team → QA Team
-     │            │          │          │
-     │            │          │          └── Test everything
-     │            │          └── Build to UX spec
-     │            └── Research, design, create UX Plan
-     └── Define positioning, channels, messaging
+AI Team → Growth Team → UX Team → Dev Team → QA Team
+   │           │            │          │          │
+   │           │            │          │          └── Test everything
+   │           │            │          └── Build to UX spec
+   │           │            └── Research, design, create UX Plan
+   │           └── Define positioning, channels, messaging
+   └── Design AI architecture, prompts, integration
 ```
 
 ### Orchestration
@@ -406,20 +560,22 @@ Each team lead:
 
 | Command | What Happens |
 |---------|--------------|
+| "Deploy AI team for [task]" | ai-lead selects and coordinates AI specialists |
 | "Deploy growth team for [task]" | growth-lead selects and coordinates growth specialists |
 | "Deploy UX team for [task]" | ux-lead selects and coordinates design specialists |
 | "Deploy dev team for [task]" | dev-lead selects and coordinates development specialists |
 | "Deploy QA team for [task]" | qa-lead selects and coordinates testing specialists |
 | "Deploy [specific agent]" | Direct deployment of individual specialist |
 
-### Example: Full Product Build
+### Example: Full AI Product Build
 
-**Input:** "Build a mobile app for tracking personal habits"
+**Input:** "Build a Claude-powered document Q&A system"
 
-1. **Growth Team** → Positioning, acquisition strategy, offer design
-2. **UX Team** → Research, design principles, visual language, UI specs
-3. **Dev Team** → Architecture, implementation, code review
-4. **QA Team** → Testing across platforms, performance, accessibility
+1. **AI Team** → RAG architecture, prompt design, context strategy
+2. **Growth Team** → Positioning, acquisition strategy, pricing
+3. **UX Team** → Research, design principles, visual language, UI specs
+4. **Dev Team** → Architecture, implementation, code review
+5. **QA Team** → Testing across platforms, performance, accessibility
 
 ---
 
@@ -428,17 +584,19 @@ Each team lead:
 ### Why Legendary Personas?
 
 These aren't random experts. They're the actual people who:
-- **Coined the terms** we use (growth hacking, UX, positioning)
-- **Wrote the books** we study (DDIA, Clean Code, Atomic Habits)
-- **Built the tools** we use daily (Linux, Git, React, Python)
-- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS)
+- **Won Nobel Prizes** for neural networks and protein folding
+- **Coined the terms** we use (growth hacking, UX, positioning, prompt injection)
+- **Wrote the books** we study (DDIA, Clean Code, Atomic Habits, Build LLM From Scratch)
+- **Built the tools** we use daily (Linux, Git, React, Python, LangChain, MemGPT)
+- **Created the frameworks** we follow (SOLID, 10 Principles, STEPPS, Constitutional AI)
 
-When you deploy dan-abramov, you get React internals expertise. When you deploy gary-halbert, you get direct response copywriting that's generated billions.
+When you deploy andrej-karpathy, you get neural network expertise from the person who built Tesla Autopilot. When you deploy dario-amodei, you get AI safety strategy from the inventor of Constitutional AI.
 
 ### Quality Standards
 
 Each team has explicit quality criteria:
 
+**AI Team:** Production-ready AI systems with safety, cost optimization, and reliability
 **Growth Team:** Clear positioning, measurable channels, offers that convert
 **UX Team:** Awwwards-worthy (40% design, 30% usability, 20% creativity, 10% content)
 **Dev Team:** Clean, tested, documented, production-ready code
@@ -462,4 +620,4 @@ MIT
 
 ---
 
-*143 specialists. 4 teams. Built for people who refuse to ship mediocre work.*
+*194 specialists. 5 teams. Built for people who refuse to ship mediocre work.*
